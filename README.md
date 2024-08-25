@@ -1,7 +1,7 @@
 # SuperVet App
 
 
-<img src="./demo/1.jpeg" alt="SuperVet App" width="216" height="480">
+<img src="./demo/7.jpeg" alt="SuperVet App" width="216" height="480">
 
 ## Overview
 
@@ -24,11 +24,13 @@ Below are some screenshots of the app:
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
     <img src="./demo/1.jpeg" alt="SuperVet App" width="216" height="480">
     <img src="./demo/2.jpeg" alt="SuperVet App" width="216" height="480">
-    <img src="./demo/3.jpeg" alt="SuperVet App" width="216" height="480">
-    <img src="./demo/4.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/7.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/8.jpeg" alt="SuperVet App" width="216" height="480">
     <img src="./demo/5.jpeg" alt="SuperVet App" width="216" height="480">
     <img src="./demo/6.jpeg" alt="SuperVet App" width="216" height="480">
-    <img src="./demo/7.jpeg" alt="SuperVet App" width="216" height="480">
+   <img src="./demo/3.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/4.jpeg" alt="SuperVet App" width="216" height="480">
+    
 </div>
 
 ## Installation
