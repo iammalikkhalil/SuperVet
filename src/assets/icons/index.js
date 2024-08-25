@@ -3,6 +3,8 @@ import SideMenuIcon from './sidemenu.svg';
 import editPencil from './edit_pencil.svg';
 import notificationIcon from './notificationIcon.svg';
 import downloadIcon from './downloadIcon.svg';
+import starOutline from './starOutline.svg';
+import starFill from './starFill.svg';
 
 import book from './book.svg';
 import handShake from './handShake.svg';
@@ -12,6 +14,7 @@ import reading from './reading.svg';
 import stats from './stats.svg';
 import wealth from './wealth.svg';
 import metaMask from './metaMask.svg';
+import lockOpen from "./lockOpen.svg"
 
 
 
@@ -31,4 +34,7 @@ export default icons = {
     stats,
     wealth,
     metaMask,
+    lockOpen,
+    starOutline,
+    starFill
 };

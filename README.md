@@ -1,79 +1,90 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# SuperVet App
 
-# Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<img src="./demo/1.jpeg" alt="SuperVet App" width="216" height="480">
 
-## Step 1: Start the Metro Server
+## Overview
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+SuperVet App is a mobile application designed for character enthusiasts and comic lovers. This app allows users to explore and interact with various character profiles, manage their user profiles, read comics, and earn points. Points can be used to unlock premium content and build teams. The intuitive and engaging user interface provides a seamless experience for both casual readers and avid collectors.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Features
 
-```bash
-# using npm
-npm start
+1. **Character Profiles**: Explore detailed profiles of various characters, including their background, abilities, and story arcs.
+2. **User Profile**: Manage your personal information, view activity history, and track points.
+3. **Comics Characters**: Dive into the world of comics with a collection of characters. Read their stories and follow their adventures.
+4. **Download Characters**: Download character profiles for offline access. Never miss out on your favorite characters, even when you're not connected to the internet.
+5. **Buy Paid Characters by Points**: Use earned points to unlock and buy exclusive paid characters. Enhance your collection with premium content.
+6. **Read to Get Points**: Engage with the content by reading comics and character stories to earn points. The more you read, the more points you accumulate.
+7. **Create Teams and Meet with Teams**: Build your own teams by selecting from a pool of characters. Meet and interact with other teams, fostering a sense of community and collaboration.
 
-# OR using Yarn
-yarn start
-```
+## Demo
 
-## Step 2: Start your Application
+Below are some screenshots of the app:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
+    <img src="./demo/1.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/2.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/3.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/4.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/5.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/6.jpeg" alt="SuperVet App" width="216" height="480">
+    <img src="./demo/7.jpeg" alt="SuperVet App" width="216" height="480">
+</div>
 
-### For Android
+## Installation
 
-```bash
-# using npm
-npm run android
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/supervet-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd supervet-app
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm start
+   ```
+5. Open your mobile device emulator or connect your physical device to see the application in action.
 
-# OR using Yarn
-yarn android
-```
+## Usage
 
-### For iOS
+1. **View Character Profiles**: Browse through the app to explore different character profiles. Each profile contains detailed information about the character's background, abilities, and storyline.
+2. **Manage User Profile**: Access and update your personal information through the user profile section.
+3. **Read Comics**: Navigate to the comics section to read various character stories. Engaging with the content will help you earn points.
+4. **Download and Unlock Characters**: Use points to download characters for offline viewing or to unlock exclusive paid characters.
+5. **Create and Meet Teams**: Utilize the app's team-building feature to create your own team of characters. Connect with other teams to discuss strategies and stories.
 
-```bash
-# using npm
-npm run ios
+## Technologies Used
 
-# OR using Yarn
-yarn ios
-```
+- **Frontend**: React Native for mobile UI/UX.
+- **Backend**: Node.js and Express.js for API handling and server-side logic.
+- **Database**: MongoDB for storing user data and character information.
+- **Authentication**: JWT (JSON Web Token) for user authentication and authorization.
+- **Storage**: Cloud storage for hosting character data and downloadable content.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Contributing
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/your-feature-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Open a pull request.
 
-## Step 3: Modifying your App
+## License
 
-Now that you have successfully run the app, let's modify it.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Contact
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+For any questions or feedback, please reach out to iammalikkhalil@outlook.com.
 
-## Congratulations! :tada:
+Connect with me on [GitHub](https://github.com/iammalikkhalil), [LinkedIn](https://www.linkedin.com/in/iammalikkhalil), and other social media platforms using the username **iammalikkhalil**.
 
-You've successfully run and modified your React Native App. :partying_face:
+---
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Thank you for using SuperVet App!

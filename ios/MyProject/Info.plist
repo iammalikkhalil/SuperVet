@@ -57,6 +57,20 @@
 		<string>Urbanist-ExtraBold.ttf</string>
 		<string>Urbanist-Regular.ttf</string>
 		<string>Urbanist-Thin.ttf</string>
+		<string>SFPRODISPLAYBLACKITALIC.ttf</string>
+		<string>SFPRODISPLAYBOLD.ttf</string>
+		<string>SFPRODISPLAYHEAVYITALIC.ttf</string>
+		<string>SFPRODISPLAYMEDIUM.ttf</string>
+		<string>SFPRODISPLAYREGULAR.ttf</string>
+		<string>SFPRODISPLAYSEMIBOLDITALIC.ttf</string>
+		<string>SFPRODISPLAYTHINITALIC.ttf</string>
+		<string>SFPRODISPLAYULTRALIGHTITALIC.ttf</string>
+		<string>SFPRODISPLAYLIGHTITALIC.ttf</string>
+		<string>Teko-Bold.ttf</string>
+		<string>Teko-Light.ttf</string>
+		<string>Teko-Medium.ttf</string>
+		<string>Teko-Regular.ttf</string>
+		<string>Teko-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

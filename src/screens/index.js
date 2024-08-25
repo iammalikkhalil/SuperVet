@@ -1,11 +1,15 @@
 import Home from './Home';
-import About from './About';
+import Discover from './Discover';
 import Characters from './Characters';
 import Popular from './Popular';
+import Featured from './Featured';
+import SuperUnlimited from './SuperUnlimited';
 
 export default screens = {
     Home,
-    About,
+    Discover,
     Characters,
     Popular,
+    Featured,
+    SuperUnlimited
 };
